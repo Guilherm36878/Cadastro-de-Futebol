@@ -1,8 +1,8 @@
-# Futebol Manager
+# Cadastro de Jogadores
 
 ## Descrição
 
-Sistema simples para cadastro de times e jogadores de futebol.
+Sistema simples para cadastro de times e jogadores.
 
 O projeto foi desenvolvido utilizando HTML, CSS e JavaScript no front-end, Node.js com Express no back-end e PostgreSQL como banco de dados.
 
