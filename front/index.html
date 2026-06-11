@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Futebol Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Futebol Manager</h1>
+    <p>Cadastro de times e jogadores</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Cadastrar Time</h2>
+
+      <input type="text" id="nomeTime" placeholder="Nome do time" />
+      <input type="text" id="cidadeTime" placeholder="Cidade" />
+
+      <button onclick="cadastrarTime()">Cadastrar Time</button>
+    </section>
+
+    <section class="card">
+      <h2>Cadastrar Jogador</h2>
+
+      <input type="text" id="nomeJogador" placeholder="Nome do jogador" />
+      <input type="text" id="posicaoJogador" placeholder="Posição" />
+      <input type="number" id="idadeJogador" placeholder="Idade" />
+      <input type="number" id="timeIdJogador" placeholder="ID do time" />
+
+      <button onclick="cadastrarJogador()">Cadastrar Jogador</button>
+    </section>
+
+    <section class="card">
+      <h2>Times cadastrados</h2>
+      <ul id="listaTimes"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Jogadores cadastrados</h2>
+      <ul id="listaJogadores"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
